@@ -1,0 +1,160 @@
+<head></head>
+<body>
+<div class="flex-box flex-wrap flex-h-center">
+ <div class="elem7" style="background-color: #000;"> 
+    <div class="tom">Контакты</div>
+    <div id="menu" class="flex-box">
+        <div>
+            <a href="file:///C:/Users/abezr/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/portfolio/port9.html#5" class="btn">Главная</a>
+        </div>
+        <div>
+            <a href="file:///C:/Users/abezr/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/portfolio/work.html" target="_blank" class="btn">Портфолио</a>
+        </div>
+        <div>
+            <a href="file:///C:/Users/abezr/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/portfolio/uslugi.html" target="_blank" class="btn">Услуги и цены</a>
+        </div>
+        <div>
+            <a href="https://github.com/AlexB555" class="btn">Github</a>
+        </div>
+        
+        <div>
+            <a href="file:///C:/Users/abezr/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/portfolio/blog.html" target="_blank" class="btn">Блог</a>
+        </div>
+        
+        
+    </div>
+ </div>  
+
+   
+</div>
+</body>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: url(img/foh0001.jpg);
+        background-size:cover ;
+        background-position:center center ;
+
+    }
+    .flex-box{
+        display: flex;
+    }
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+    .flex-h-center{
+        justify-content: center;
+    }
+    
+    
+    .elem{
+        width:33.33%;
+        height: 100px;
+        min-width: 200;
+        background-size: cover;
+        padding: 350px 200px;
+        box-sizing: border-box;
+        background-color:yellow;
+        border: 15px solid white;
+        
+   
+    }
+    
+.elem2{
+    width:100%;
+        height: 100px;
+        min-width: 200px;
+        background-size: cover;
+        background-position: center center;
+        padding: 30px;
+        box-sizing: border-box;
+        background-color:yellow;
+        
+}
+.elem7{
+    width:100%;
+        height: 100px;
+        min-width: 200px;
+        background-size: cover;
+        background-position: center center;
+        padding: 60px;
+        box-sizing: border-box;
+        background-color:yellow;
+         
+}
+
+    
+    @media(max-width:500px){
+    /**/
+.elem{
+        background-color:red;
+    }
+    body{
+        background-color: thistle;
+    }
+}
+@media(max-width:300px){
+    .elem{
+        background-color: pink;
+    }
+
+}
+.elem:nth-child(3){
+display:;
+}
+#menu {
+        position:static;
+        justify-content:end;
+        width: 100%;
+        z-index: 99;
+    }
+
+    #menu a {
+        display: block;
+        margin: 10px;
+        font-family: Arial;}
+        .btn {
+        background-color: black;
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: grey;
+        text-decoration: none;
+        font-weight:lighter;
+        
+    }
+    .tom{
+        position: absolute;
+        color: white;
+        font-size:50px;
+        font-family:Arial;
+        top: 30px;
+        left: 50;
+        font-weight: bold;
+
+    }
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align:center;
+    width: 48px;
+    height: 48px;
+   float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+    justify-items: flex-start;
+    justify-content: center;
+    
+}
+
+.youtube a:hover {background: #c4302b; color: #fff;}
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+
+</style>
